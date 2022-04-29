@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Lobster&family=Ms+Madi&family=Tapestry&family=Tourney:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+h1.title{
+    font-family: 'Tapestry', cursive;
+    font-size: 8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    gap: 50px;
+    padding: 100px 0;
+}
+.dogAge{
+        background: #ee44ee55;
+}
+.showResult{
+    width: 85%;
+    margin: 0 auto;
+    height: 20%;
+    background: yellow;
+    font-size: 40px;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+.ageOfDog{
+    width: 350px;
+    height: 45px;
+    border-radius: 15px;
+    text-indent: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.5);
+    margin: 20px 0px;
+    padding: 5px;
+    font-size: 18px;
+}
+::placeholder{
+    font-size: 15px;
+}
+.formDesign{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.submitButton{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    display: block;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background: #fcfeff;
+    background-image: -webkit-linear-gradient(top, #fcfeff, #c1cbd1);
+    background-image: -moz-linear-gradient(top, #fcfeff, #c1cbd1);
+    background-image: -ms-linear-gradient(top, #fcfeff, #c1cbd1);
+    background-image: -o-linear-gradient(top, #fcfeff, #c1cbd1);
+    background-image: linear-gradient(to bottom, #fcfeff, #c1cbd1);
+    display: block;
+    transition: all 0.5s ease;
+    margin-top: 50px;
+
+}
+.submitButton:hover{
+  background: #3cb0fd;
+  color: #fff;
+}
+
+
+/* Second Section of The Page */
+
+
+.loveCalculator{
+    background: #0fd;
+}
+h1.love_title{
+    font-family: 'Ms Madi', cursive;
+    font-weight: bold;
+    font-size: 8rem;
+    cursor: pointer;
+}
+.formDesign_love{
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.displayResult{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 6rem;
+}
+.symbolResult{
+    position: relative ;
+    color: #fff; 
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.iconWrap{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 50px;
+}
+.iconWrap::before{
+    content: "❤";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12rem;
+    color: red;
+}
+.yourname,.theirname{
+    width: 300px;
+    height: 45px;
+    text-align: center;
+    text-indent: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.5);
+}
+.wrapper{
+    border: 1px solid #247881;
+    border-radius: 15px;
+    width: 960px;
+    padding: 50px;
+}
+.btn{
+    width: 350px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.btn-one{
+    height: 50px;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid #247881;
+    font-size: 2rem;
+    outline: none;
+    font-family: cursive;
+    transition: background 0.5s ease;
+}
+.btn-one:hover{
+    background: #363062;
+    color: #fff;
+}
+.btn-one:focus{
+    background: #3cb0fd;
+}
+
+.quote{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    font-family: 'Lobster', cursive;
+}
+
+
+
+
+.leapYear{
+    background-color: #FF85B3;
+    gap: 20px;
+}
+.leapYear_title{
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: bold;
+    font-size: 8rem;
+    cursor: pointer;
+}
+.leapYearInput{
+    width: 350px;
+    height: 45px;
+    border-radius: 15px;
+    text-indent: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.5);
+    margin: 20px 0px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+.btn-check{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    overflow: hidden;
+    z-index: 1;
+    border: none;
+    border-radius: 15px;
+    font-size: 2rem;
+    font-family: 'Tapestry', cursive;
+    margin: 50px;
+    cursor: pointer;
+
+}
+.btn-check::before,
+.btn-check::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    top: 0;
+    transition: all 0.7s ease;
+    z-index: -1;
+}
+.btn-check::before{
+    left: 100%;
+}
+.btn-check::after{
+    right: 100%;
+}
+.btn-check:hover:before{
+    left: 0;
+}
+.btn-check:hover:after{
+right: 0;
+}
+.checkbox{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    accent-color: #1fe040;
+    cursor: pointer;
+}
+.contentBox{
+    width: 300px;
+    height: 100px;
+    background: #fff;
+    font-size: 20px;
+    color: #000;
+    padding: 15px;
+    line-height: 1.5;
+    display: none;
+}
+.active{
+    display: block;
+}
+.showExplanation{
+    display: none; 
+    align-items: center;
+            
+    justify-content: center; 
+    gap: 15px;
+    cursor: pointer;
+}
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide{
+    display: none;
+}
+.tik{
+    color: green;
+}
+.cross{
+    color: red;
+}
+
+
+/* Fibonacci Number Generator */
+.fibonacci_title{
+    color: #fff;
+    font-family: 'Tourney', cursive;
+    font-size: 5rem;
+    cursor: pointer;
+}
+.fibonacciNumberGenerator{
+    background-color: #0E185F;
+}
+.fibonacciInputClass{
+     width: 350px;
+    height: 45px;
+    border-radius: 15px;
+    text-indent: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.5);
+    margin: 20px 0px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+.resultOfFibonacciNumberGenerator{
+    width: 90%;
+    padding: 15px;
+    height: 100%;
+    background: #fff;
+    box-shadow: inset 0px 0px 5px 0px rgba(94,93,94,1);
+    line-height: 1.5;
+    font-size: 1rem;
+    border-radius: 15px;
+    display: none;
+
+}
+.getResultOfFibonacciNumber{
+    width: 200px;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid ;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    font-size: 2rem;
+    margin: 55px 0;
+
+}
+.getResultOfFibonacciNumber:hover{
+    background: #fff;
+    color: #000;
+}
+.showResult{
+    display: block;
+}
